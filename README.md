@@ -1,20 +1,10 @@
 
-# Meal Filter – Chip Demo
 
-A Flutter app showcasing the use of Material Chips for filtering a list of meals by dietary tags.
+# FilterChip Widget Demo
 
-## Features
+A Flutter app demonstrating the use of the FilterChip widget to filter meals by dietary tags.
 
-- Filter meals by diet (Vegetarian, Vegan, High-Protein, Gluten-Free, Low-Calorie)
-- Interactive chip selection for easy filtering
-- Responsive UI with Material Design
-- Meal list updates in real-time based on selected filters
-
-## Screenshots
-
-_Add screenshots here if available._
-
-## Getting Started
+## How to Run
 
 1. Clone the repository:
 	```
@@ -28,20 +18,26 @@ _Add screenshots here if available._
 	```
 	flutter pub get
 	```
-4. Run the app:
+4. Start the app:
 	```
 	flutter run
 	```
 
-## Project Structure
+## Widget Description
 
-- `lib/main.dart`: Main app logic and UI
-- `pubspec.yaml`: Project configuration and dependencies
+This demo shows how FilterChip widgets can be used to filter a meal list by diet type.
 
-## Requirements
 
-- Flutter SDK 3.0.0 or higher
+## Three Key Attributes
 
-## License
+- **label**: Sets the text displayed on each chip (e.g., "Vegetarian", "Vegan").
+- **selected**: Indicates whether the chip is active; selected chips filter the meal list.
+- **onSelected**: Callback triggered when a chip is tapped, updating the filter state.
 
-This project is licensed under the MIT License.
+## Screenshots
+
+![Main UI](screenshot1.png)
+![Filter Chips Vegan](screenshot2.png)
+![Filter Chips Vegan and Gluten-free](screenshot3.png)
+![Filter Chips that Doesn't meet any food available](screenshot4.png)
+
