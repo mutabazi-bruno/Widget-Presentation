@@ -1,17 +1,47 @@
-# chip
 
-A new Flutter project.
+# Meal Filter – Chip Demo
+
+A Flutter app showcasing the use of Material Chips for filtering a list of meals by dietary tags.
+
+## Features
+
+- Filter meals by diet (Vegetarian, Vegan, High-Protein, Gluten-Free, Low-Calorie)
+- Interactive chip selection for easy filtering
+- Responsive UI with Material Design
+- Meal list updates in real-time based on selected filters
+
+## Screenshots
+
+_Add screenshots here if available._
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+1. Clone the repository:
+	```
+	git clone https://github.com/mutabazi-bruno/Widget-Presentation.git
+	```
+2. Navigate to the project directory:
+	```
+	cd Widget-Presentation/chip
+	```
+3. Install dependencies:
+	```
+	flutter pub get
+	```
+4. Run the app:
+	```
+	flutter run
+	```
 
-A few resources to get you started if this is your first Flutter project:
+## Project Structure
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+- `lib/main.dart`: Main app logic and UI
+- `pubspec.yaml`: Project configuration and dependencies
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Requirements
+
+- Flutter SDK 3.0.0 or higher
+
+## License
+
+This project is licensed under the MIT License.
